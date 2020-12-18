@@ -18,9 +18,12 @@ async def on_message(message):
         await message.add_reaction('🟪')
 
     if str(message.author) in ["barftron666#9511"]:
-        await message.add_reaction('👐')    if str(message.author) in ["SinSemilla#3965"]:
+        await message.add_reaction('👐')
+
+    if str(message.author) in ["SinSemilla#3965"]:
         await message.add_reaction('<:NH:784463585531265104>'
-      if str(message.author) in ["Desert Ham#2846"]:
+
+    if str(message.author) in ["Desert Ham#2846"]:
         await message.add_reaction('<:DS:784463585531265104>')
 
     if message.content.startswith('$hello'):
@@ -50,4 +53,3 @@ async def on_message(message):
 
 
 client.run(os.getenv('TOKEN'))
-
