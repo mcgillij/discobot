@@ -52,5 +52,5 @@ async def on_message(message):
         channel = message.channel
         await channel.send('$hello, $ds, $darcysux, $commands')
 
-
+keep_alive()
 client.run(os.getenv('TOKEN'))
