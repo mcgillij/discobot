@@ -22,7 +22,7 @@ async def on_message(message):
         await message.add_reaction('👐')
 
     if str(message.author) in ["SinSemilla#3965"]:
-        await message.add_reaction('<:NH:784463585531265104>'
+        await message.add_reaction('<:NH:784463585531265104>')
 
     if str(message.author) in ["Desert Ham#2846"]:
         await message.add_reaction('<:DS:784463585531265104>')
