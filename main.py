@@ -30,6 +30,9 @@ async def on_message(message):
     if message.content.startswith('$hello'):
         await message.channel.send('Hello!')
 
+    if message.content.startswith('@nickhalford'):
+        await message.channel.send('@SinSemilla')
+
     if message.content.startswith('$darcysux') or message.content.startswith(
             '$ds'):
         await message.channel.send('<:DS:784463585531265104>')
