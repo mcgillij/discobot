@@ -31,7 +31,7 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
     if message.content.startswith('@nickhalford'):
-        await message.channel.send('@SinSemilla')
+        await message.channel.send('SinSemilla#3965')
 
     if message.content.startswith('$darcysux') or message.content.startswith(
             '$ds'):
